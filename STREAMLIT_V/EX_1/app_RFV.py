@@ -187,7 +187,7 @@ def main():
         dict_acoes = {'AAA': 'Pedir para indicar nosso produto pra algum amigo, enviar amostras grátis.',
         'DDD': 'Churn! clientes que gastaram pouco, fazer nada',
         'DAA': 'Churn! clientes que gastaram bastante, enviar cupons de desconto para tentar recuperar',
-        'CAA': 'Churn! clientes que gastaram bastante, enviar cupons de desconto para tentar recuperar'
+        'CAA': 'Churn! clientes que gastaram bastante, enviar cupons de desconto.'
         }
 
         df_RFV['acoes de marketing/crm'] = df_RFV['RFV_Score'].map(dict_acoes)

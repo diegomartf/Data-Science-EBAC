@@ -58,8 +58,7 @@ def freq_val_class(x, fv, q_dict):
 def main():
     # Configuração inicial da página da aplicação
     st.set_page_config(
-        page_title="EBAC | Módulo 31 | Streamlit V | Exercício 1",
-        page_icon='https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/ebac-course-utils/media/icon/favicon.ico', 
+        page_title="EBAC | Módulo 31 | Streamlit V | Exercício 1", 
         layout="wide",
         initial_sidebar_state="expanded",
     )
